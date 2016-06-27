@@ -1,0 +1,28 @@
+// navigation styles //
+
+nav {
+	
+}
+
+#nav-primary {
+	margin-top: 50px;
+	text-transform: uppercase;
+	
+	@media (min-width: 900px) {
+		margin-top: -4px;
+	}
+	
+	a {
+		color: white;
+	}
+	
+	li {
+		text-align: right;
+		letter-spacing: .1em;
+	}
+	
+	li:last-child {
+		margin-right: 0;
+	}
+}
+

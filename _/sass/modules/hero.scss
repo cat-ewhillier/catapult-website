@@ -1,0 +1,13 @@
+.hero {
+	height: 50vh;
+	width: 100%;
+	background-image: url(../assets/temp-hero.png);
+	background-size: cover;
+	background-position: center center;
+	
+	@media (min-width: 900px) {
+		height: 90vh;
+		width: 50%;
+		float: right;
+	}
+}

@@ -1,0 +1,33 @@
+header {
+	margin-bottom: -100px;
+	padding: 24px;
+	height: 160px;
+	width: 100%;
+	background-color: $red;
+	
+	@media (min-width: 900px) {
+		padding: 23px;
+		padding-bottom: 0;
+		height: 60px;
+	}
+}
+
+.open {
+	margin-bottom: 0;
+}
+
+.catapult-logo {
+	width: 155px;
+	
+}
+	
+.hamburger-icon {
+	width: 35px;
+	
+	@media (min-width: 900px) {
+		display: none;
+	}
+}
+
+
+

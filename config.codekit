@@ -2,6 +2,50 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
+	"\/_\/assets\/catapult-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 879,
+		"inputAbbreviatedPath": "\/_\/assets\/catapult-logo.png",
+		"outputAbbreviatedPath": "\/_\/assets\/catapult-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/assets\/hamburger-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 241,
+		"inputAbbreviatedPath": "\/_\/assets\/hamburger-icon.png",
+		"outputAbbreviatedPath": "\/_\/assets\/hamburger-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/assets\/temp-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 324682,
+		"inputAbbreviatedPath": "\/_\/assets\/temp-hero.png",
+		"outputAbbreviatedPath": "\/_\/assets\/temp-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/assets\/temp-stats.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6504,
+		"inputAbbreviatedPath": "\/_\/assets\/temp-stats.png",
+		"outputAbbreviatedPath": "\/_\/assets\/temp-stats.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -10,6 +54,28 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_\/js\/interactions.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/js\/interactions.js",
+		"outputAbbreviatedPath": "\/_\/js\/min\/interactions-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_\/js\/min\/interactions-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/js\/min\/interactions-min.js",
+		"outputAbbreviatedPath": "\/_\/js\/min\/min\/interactions-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/_\/sass\/base.scss": {
 		"createSourceMap": 0,
@@ -123,15 +189,47 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/_\/sass\/media-queries.scss": {
+	"\/_\/sass\/modules\/header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/_\/sass\/media-queries.scss",
-		"outputAbbreviatedPath": "\/_\/css\/media-queries.css",
+		"inputAbbreviatedPath": "\/_\/sass\/modules\/header.scss",
+		"outputAbbreviatedPath": "\/_\/sass\/css\/header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/_\/sass\/modules\/hero.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/_\/sass\/modules\/hero.scss",
+		"outputAbbreviatedPath": "\/_\/sass\/css\/hero.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/_\/sass\/modules\/nav.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/_\/sass\/modules\/nav.scss",
+		"outputAbbreviatedPath": "\/_\/sass\/css\/nav.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
