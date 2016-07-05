@@ -10,7 +10,7 @@ nav {
 	font-size: 1.2em;
 	
 	@media (min-width: 900px) {
-		margin-top: -4px;
+		margin-top: 0;
 	}
 	
 	a {
@@ -23,8 +23,8 @@ nav {
 		
 		@media (min-width: 900px) {
 			display: inline;
-			margin: 10px;
-			font-size: 1em;
+			margin: 0 10px;
+			font-size: .75em;
 		}
 		
 	}

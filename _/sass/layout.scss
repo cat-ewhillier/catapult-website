@@ -10,7 +10,7 @@
   clear: both; }
   
   
-  
+ 
   
 header {
   position: fixed;
@@ -51,8 +51,15 @@ header {
 	}
 	
 	@media (min-width: 900px) {
-		width: 40%;
+		width: 50%;
 		margin: 0;
+		padding: 25vh 10% 0 10%;
+		height: 95vh;
+	}
+	
+	@media (min-width: 1700px) {
+		padding: 25vh 13% 0 13%; 
+		width: 40%;
 	}
 	
 }

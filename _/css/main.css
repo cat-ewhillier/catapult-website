@@ -147,7 +147,8 @@ h2 {
   font-size: 1.4rem;
   line-height: 1;
   letter-spacing: .2em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #6a7e91; }
 
 h3 {
   font-size: 3.0rem;
@@ -175,11 +176,8 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB;
+  color: #bf2f38;
   text-decoration: none; }
-
-a:hover {
-  color: #0FA0CE; }
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -238,8 +236,14 @@ header {
       width: 80%; } }
   @media (min-width: 900px) {
     .story-content {
-      width: 40%;
-      margin: 0; } }
+      width: 50%;
+      margin: 0;
+      padding: 25vh 10% 0 10%;
+      height: 95vh; } }
+  @media (min-width: 1700px) {
+    .story-content {
+      padding: 25vh 13% 0 13%;
+      width: 40%; } }
 
 @media (min-width: 900px) {
   .split-fifty {
@@ -252,7 +256,7 @@ header {
   font-size: 1.2em; }
   @media (min-width: 900px) {
     #nav-primary {
-      margin-top: -4px; } }
+      margin-top: 0; } }
   #nav-primary a {
     color: white; }
   #nav-primary li {
@@ -261,8 +265,8 @@ header {
     @media (min-width: 900px) {
       #nav-primary li {
         display: inline;
-        margin: 10px;
-        font-size: 1em; } }
+        margin: 0 10px;
+        font-size: .75em; } }
   #nav-primary li:last-child {
     margin-right: 0; }
 
@@ -277,7 +281,7 @@ header {
   @media (min-width: 900px) {
     header {
       margin-bottom: 0;
-      padding: 23px;
+      padding: 15px;
       padding-bottom: 0;
       height: 60px; } }
 
@@ -286,6 +290,9 @@ header {
 
 .catapult-logo {
   width: 155px; }
+  @media (min-width: 900px) {
+    .catapult-logo {
+      margin: 10px 10px 0 0; } }
 
 .hamburger-icon {
   margin-top: -3px;
@@ -301,9 +308,12 @@ header {
   background-position: center center; }
   @media (min-width: 900px) {
     .hero {
-      height: 90vh;
+      height: 95vh;
       width: 50%;
       float: right; } }
+  @media (min-width: 1700px) {
+    .hero {
+      width: 60%; } }
 
 .hero-one {
   background-image: url(../assets/temp-hero.png); }
@@ -317,6 +327,9 @@ header {
 .carousel {
   position: relative;
   overflow: hidden; }
+  @media (min-width: 900px) {
+    .carousel {
+      height: 100vh; } }
 
 .story-hide {
   display: none; }
@@ -324,15 +337,17 @@ header {
 /* CAROUSEL NAVIGATION */
 .carousel-nav {
   position: absolute;
-  top: 55vh;
-  height: 210px;
-  overflow: hidden; }
+  top: 55vh; }
+  @media (min-width: 900px) {
+    .carousel-nav {
+      top: 32vh; } }
 
 /* BUTTONS: SIZE; INITIAL COLOR */
 .nav-button {
   position: relative;
-  height: 70px;
-  width: 10px; }
+  height: 75px;
+  width: 10px;
+  margin-top: 5px; }
 
 .nav-button-one {
   background-color: #6a7e91; }
@@ -357,5 +372,23 @@ header {
 
 .nav-link-three:hover {
   background-color: #441f47; }
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  color: #6a7e91; }
+
+.button-arrow:after {
+  content: '';
+  background: url(../assets/button-arrow.png) no-repeat;
+  display: inline-block;
+  margin-left: 10px;
+  height: 9px;
+  width: 5px;
+  transition-timing-function: ease;
+  transition-duration: .25s; }
+
+.button-arrow:hover:after {
+  margin-left: 15px; }
 
 /*# sourceMappingURL=main.css.map */

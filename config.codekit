@@ -13,6 +13,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/assets\/button-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198,
+		"inputAbbreviatedPath": "\/_\/assets\/button-arrow.png",
+		"outputAbbreviatedPath": "\/_\/assets\/button-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/assets\/catapult-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,

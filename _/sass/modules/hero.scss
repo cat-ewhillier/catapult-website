@@ -5,9 +5,13 @@
 	background-position: center center;
 	
 	@media (min-width: 900px) {
-		height: 90vh;
+		height: 95vh;
 		width: 50%;
 		float: right;
+	}
+	
+	@media (min-width: 1700px) {
+		width: 60%;
 	}
 }
 

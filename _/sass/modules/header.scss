@@ -9,7 +9,7 @@ header {
 	
 	@media (min-width: 900px) {
 		margin-bottom: 0;
-		padding: 23px;
+		padding: 15px;
 		padding-bottom: 0;
 		height: 60px;
 	}
@@ -21,6 +21,10 @@ header {
 
 .catapult-logo {
 	width: 155px;
+	
+	@media (min-width: 900px) {
+		margin: 10px 10px 0 0;
+	}
 }
 	
 .hamburger-icon {
