@@ -32,19 +32,27 @@ header {
   
   
   
-  .float-left {
-	  float: left;
-  }
-  
-  .float-right {
-	  float: right;
-  }
+.float-left {
+  float: left;
+}
 
-.content {
-	padding: 30px;
+.float-right {
+  float: right;
+}
+
+.story-content {
+	width: 100%;
+	padding: 30px 30px 30px 40px;
 	
 	@media (min-width: 600px) {
 		padding: 50px;
+		margin: 0 auto;
+		width: 80%;
+	}
+	
+	@media (min-width: 900px) {
+		width: 40%;
+		margin: 0;
 	}
 	
 }

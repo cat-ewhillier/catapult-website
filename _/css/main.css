@@ -107,7 +107,7 @@
   .offset-by-one-half.columns {
     margin-left: 52%; } }
 
-/* Base Styles
+/* Base Styles: typography, links, body
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
@@ -228,11 +228,18 @@ header {
 .float-right {
   float: right; }
 
-.content {
-  padding: 30px; }
+.story-content {
+  width: 100%;
+  padding: 30px 30px 30px 40px; }
   @media (min-width: 600px) {
-    .content {
-      padding: 50px; } }
+    .story-content {
+      padding: 50px;
+      margin: 0 auto;
+      width: 80%; } }
+  @media (min-width: 900px) {
+    .story-content {
+      width: 40%;
+      margin: 0; } }
 
 @media (min-width: 900px) {
   .split-fifty {
@@ -251,10 +258,16 @@ header {
   #nav-primary li {
     text-align: right;
     letter-spacing: .1em; }
+    @media (min-width: 900px) {
+      #nav-primary li {
+        display: inline;
+        margin: 10px;
+        font-size: 1em; } }
   #nav-primary li:last-child {
     margin-right: 0; }
 
 header {
+  z-index: 1;
   margin-bottom: -120px;
   padding: 24px 30px 0 30px;
   height: 180px;
@@ -263,6 +276,7 @@ header {
   transition: all .5s ease-in-out; }
   @media (min-width: 900px) {
     header {
+      margin-bottom: 0;
       padding: 23px;
       padding-bottom: 0;
       height: 60px; } }
@@ -283,7 +297,6 @@ header {
 .hero {
   height: 50vh;
   width: 100%;
-  background-image: url(../assets/temp-hero.png);
   background-size: cover;
   background-position: center center; }
   @media (min-width: 900px) {
@@ -291,5 +304,58 @@ header {
       height: 90vh;
       width: 50%;
       float: right; } }
+
+.hero-one {
+  background-image: url(../assets/temp-hero.png); }
+
+.hero-two {
+  background-image: url(../assets/bsm-new-harvestsnaps.jpg); }
+
+.hero-three {
+  background-image: url(../assets/temp-hero.png); }
+
+.carousel {
+  position: relative;
+  overflow: hidden; }
+
+.story-hide {
+  display: none; }
+
+/* CAROUSEL NAVIGATION */
+.carousel-nav {
+  position: absolute;
+  top: 55vh;
+  height: 210px;
+  overflow: hidden; }
+
+/* BUTTONS: SIZE; INITIAL COLOR */
+.nav-button {
+  position: relative;
+  height: 70px;
+  width: 10px; }
+
+.nav-button-one {
+  background-color: #6a7e91; }
+
+.nav-button-two {
+  background-color: #d77d31; }
+
+.nav-button-three {
+  background-color: #662e6b; }
+
+/* HREF: CLICKABLE AREA; HOVER STATES */
+.nav-link {
+  position: absolute;
+  top: 0;
+  padding: 35px 5px; }
+
+.nav-link-one:hover {
+  background-color: #546474; }
+
+.nav-link-two:hover {
+  background-color: #b26423; }
+
+.nav-link-three:hover {
+  background-color: #441f47; }
 
 /*# sourceMappingURL=main.css.map */

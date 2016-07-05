@@ -1,7 +1,6 @@
 .hero {
 	height: 50vh;
 	width: 100%;
-	background-image: url(../assets/temp-hero.png);
 	background-size: cover;
 	background-position: center center;
 	
@@ -10,4 +9,16 @@
 		width: 50%;
 		float: right;
 	}
+}
+
+.hero-one {
+	background-image: url(../assets/temp-hero.png);
+}
+
+.hero-two {
+	background-image: url(../assets/bsm-new-harvestsnaps.jpg);
+}
+
+.hero-three {
+	background-image: url(../assets/temp-hero.png);
 }

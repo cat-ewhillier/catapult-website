@@ -2,6 +2,17 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
+	"\/_\/assets\/bsm-new-harvestsnaps.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 331294,
+		"inputAbbreviatedPath": "\/_\/assets\/bsm-new-harvestsnaps.jpg",
+		"outputAbbreviatedPath": "\/_\/assets\/bsm-new-harvestsnaps.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/assets\/catapult-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -9,6 +20,17 @@
 		"initialSize": 879,
 		"inputAbbreviatedPath": "\/_\/assets\/catapult-logo.png",
 		"outputAbbreviatedPath": "\/_\/assets\/catapult-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/assets\/Composed-Images-Vertical-CafeComp1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 959567,
+		"inputAbbreviatedPath": "\/_\/assets\/Composed-Images-Vertical-CafeComp1.jpg",
+		"outputAbbreviatedPath": "\/_\/assets\/Composed-Images-Vertical-CafeComp1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -102,6 +124,22 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_\/sass\/buttons.scss",
 		"outputAbbreviatedPath": "\/_\/css\/buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/_\/sass\/carousel.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/sass\/carousel.scss",
+		"outputAbbreviatedPath": "\/_\/css\/carousel.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

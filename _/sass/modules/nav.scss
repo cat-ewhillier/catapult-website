@@ -20,6 +20,13 @@ nav {
 	li {
 		text-align: right;
 		letter-spacing: .1em;
+		
+		@media (min-width: 900px) {
+			display: inline;
+			margin: 10px;
+			font-size: 1em;
+		}
+		
 	}
 	
 	li:last-child {

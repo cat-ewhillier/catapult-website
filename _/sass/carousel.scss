@@ -1,0 +1,67 @@
+.carousel {
+	position: relative;
+	overflow: hidden;
+}
+
+.story-hide {
+	display: none;
+}
+
+
+
+
+
+
+/* CAROUSEL NAVIGATION */
+
+.carousel-nav {
+	position: absolute;
+	top: 55vh;
+	height: 210px;
+	overflow: hidden;
+}
+
+	/* BUTTONS: SIZE; INITIAL COLOR */
+.nav-button {
+	position: relative;
+	height: 70px;
+	width: 10px;
+}
+
+.nav-button-one {
+	background-color: $dullblue;
+}
+
+.nav-button-two {
+	background-color: $orange;
+}
+
+.nav-button-three {
+	background-color: $purple;
+}
+
+	/* HREF: CLICKABLE AREA; HOVER STATES */
+.nav-link {
+	position: absolute;
+	top: 0;
+	padding: 35px 5px;
+}
+
+.nav-link-one {
+	&:hover {
+		background-color: darken($dullblue, 10%);	
+	}
+}
+
+.nav-link-two {
+	&:hover {
+		background-color: darken($orange, 10%);	
+	}
+}
+
+.nav-link-three {
+	&:hover {
+		background-color: darken($purple, 10%);	
+	}
+}
+
