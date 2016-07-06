@@ -1,20 +1,22 @@
-// navigation styles //
+ /* PRIMARY NAVIGATION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */ 
 
 nav {
-	
-}
-
-#nav-primary {
 	margin-top: 50px;
 	text-transform: uppercase;
 	font-size: 1.2em;
 	
 	@media (min-width: 900px) {
 		margin-top: 0;
+		float: left;
 	}
 	
 	a {
 		color: white;
+		
+		&:hover {
+			color: darken($red, 30%);
+		}
 	}
 	
 	li {
@@ -23,14 +25,21 @@ nav {
 		
 		@media (min-width: 900px) {
 			display: inline;
-			margin: 0 10px;
-			font-size: .75em;
+			margin: 0 20px;
+			font-size: .85em;
 		}
 		
 	}
-	
-	li:last-child {
-		margin-right: 0;
-	}
 }
 
+.open {
+	margin-bottom: 0;
+}
+
+.nav-menu {
+	
+	@media (min-width: 900px) {
+		text-align: center;
+	}
+	
+}

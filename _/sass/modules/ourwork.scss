@@ -1,0 +1,237 @@
+/* OUR WORK - PROJECT FILTERS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.work-filters {
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	padding: 15px;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	
+	@media (min-width: 900px) {
+		padding: 35px;
+		width: 45%;
+		height: 100px;
+	}
+	
+	@media (min-width: 1085px) {
+		width: 35%;
+	}
+	
+	@media (min-width: 1700px) {
+		width: 25%;
+	}
+	
+	li {
+		display: inline;
+		margin-right: 20px;
+	}
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    
+    h4 {
+	    color: $red;
+	    margin-bottom: 0px;
+    }
+    
+    a {
+	    font-size: 1.3rem;
+    }
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+    position: absolute;
+    padding-top: 10px;
+    margin-left: -15px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: $darkgray;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+/* OUR WORK - HERO
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.work-hero {
+	height: 50vh;
+	width: 100%;
+	background-image: url(../assets/bsm-new-harvestsnaps.jpg);
+	background-position: center center;
+	z-index: 1;
+	
+	@media (min-width: 900px) {
+		float: right;
+		margin-top: 0;
+		height: 100vh;
+		width: 55%;
+	}
+	
+	@media (min-width: 1085px) {
+		width: 65%;
+	}
+	
+	@media (min-width: 1700px) {
+		width: 75%;
+	}
+}
+
+/* OUR WORK - PROJECT LIST
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.project-list {
+	width: 100%;
+	height: 100vh;
+	overflow: scroll;
+	
+	@media (min-width: 900px) {
+		float: left;
+		padding-top: 100px;
+		width: 45%;
+	}
+	
+	@media (min-width: 1085px) {
+		width: 35%;
+	}
+	
+	@media (min-width: 1700px) {
+		width: 25%;
+	}
+}
+
+.project-item {
+	position: relative;
+	padding: 25px 35px;
+	margin-bottom: 3px;
+	width: 100%;
+	height: 75px;
+	background-color: $lightgray;
+	
+	h3 {
+		margin-right: 20px;
+	}
+	
+	h4 {
+		margin-top: 4px;
+	}
+}
+
+.stacked { 					/* WHEN H3 & H4 NEED TO STACK ON MOBILE */
+	padding-top: 15px;
+	
+	h3 {
+		margin-bottom: 0;
+	}
+	
+	.item-arrow {
+		margin-top: 18px;
+	}
+	
+	@media (min-width: 900px) {
+		padding: 25px 35px;
+		
+		.item-arrow {
+			margin-top: 8px;
+		}
+	}
+}
+
+.link-span {				/* ALLOWS THE WHOLE DIV TO BE CLICKABLE */
+	position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
+}
+
+.item-arrow {
+	position: absolute;
+	right: 35px;
+	margin-top: 8px;
+}
+
+.item-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 75px;
+	width: 10px;
+}
+
+
+/* OUR WORK - PROJECT TAG COLORS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.packaging-background {
+	background-color: $purple;
+}
+
+.packaging-text {
+	color: $purple;
+}
+
+.environmental-background {
+	background-color: $dullblue;
+}
+
+.environmental-text {
+	color: $dullblue;
+}
+
+.branding-background {
+	background-color: $orange;
+}
+
+.branding-text {
+	color: $orange;
+}
+
+.logo-background {
+	background-color: $red;
+}
+
+.logo-text {
+	color: $red;
+}
+
+.interactive-background {
+	background-color: $yellow;
+}
+
+.interactive-text {
+	color: $yellow;
+}

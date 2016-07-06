@@ -1,4 +1,4 @@
-/* Clearing
+/* CLEARING
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Self Clearing Goodness */
@@ -11,27 +11,11 @@
   
   
  
-  
-header {
-  position: fixed;
-  bottom: 0;
-}
 
-.header-logo {
-	@media (min-width: 900px){
-	  float: right;
-	 }
-}
-
-.header-nav {
-	
-  @media (min-width: 900px){
-	  float: left;
-	 }
-}
   
   
-  
+ /* GENERAL POSITIONING
+–––––––––––––––––––––––––––––––––––––––––––––––––– */   
 .float-left {
   float: left;
 }
@@ -40,34 +24,40 @@ header {
   float: right;
 }
 
-.story-content {
-	width: 100%;
-	padding: 30px 30px 30px 40px;
-	
-	@media (min-width: 600px) {
-		padding: 50px;
-		margin: 0 auto;
-		width: 80%;
-	}
-	
-	@media (min-width: 900px) {
-		width: 50%;
-		margin: 0;
-		padding: 25vh 10% 0 10%;
-		height: 95vh;
-	}
-	
-	@media (min-width: 1700px) {
-		padding: 25vh 13% 0 13%; 
-		width: 40%;
-	}
-	
-}
-
 .split-fifty {
 	
 	@media (min-width: 900px) {
 		width: 50%;
 		height: inherit;
+	}
+}
+
+.split-thirty {
+	margin-left: -15px;
+	
+	@media (min-width: 900px) {
+		width: 45%;
+	}
+	
+	@media (min-width: 1085px) {
+		width: 35%;
+	}
+	
+	@media (min-width: 1700px) {
+		width: 25%;
+	}
+}
+
+.split-seventy {
+	@media (min-width: 900px) {
+		width: 55%;
+	}
+	
+	@media (min-width: 1085px) {
+		width: 65%;
+	}
+	
+	@media (min-width: 1700px) {
+		width: 75%;
 	}
 }

@@ -1,0 +1,114 @@
+/* CAROUSEL POSITIONING 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */ 
+.carousel {
+	position: relative;
+	overflow: hidden;
+	
+	@media (min-width: 900px) {
+		height: 100vh;
+	}
+}
+
+
+/* CAROUSEL NAVIGATION 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */ 
+
+.carousel-nav {
+	position: absolute;
+	top: 55vh;
+	
+	@media (min-width: 900px) {
+		top: 32vh;
+	}
+	
+}
+
+/* CAROUSEL BUTTONS: SIZE; INITIAL COLOR
+–––––––––––––––––––––––––––––––––––––––––––––––––– */ 
+.carousel-button {
+	position: relative;
+	height: 75px;
+	width: 10px;
+	margin-top: 3px;
+	background-color: grey;
+}
+
+.carousel-selected {
+	background-color: $red;
+}
+
+/* CAOURSEL CLICKABLE AREA; HOVER STATES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */ 
+.carousel-link {
+	position: absolute;
+	top: 0;
+	padding: 37px 5px;
+	
+	&:hover {
+		background-color: darken($red, 10%);	
+	}
+	
+}
+
+/* CAROUSEL STORIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */ 
+
+.story-hide {
+	display: none;
+}
+
+.story-content {
+	width: 100%;
+	padding: 30px 30px 30px 40px;
+	
+	@media (min-width: 600px) {
+		padding: 50px;
+		margin: 0 auto;
+		width: 80%;
+	}
+	
+	@media (min-width: 900px) {
+		width: 47%;
+		margin: 0;
+		padding: 25vh 10% 0 11%;
+		height: 95vh;
+	}
+	
+	@media (min-width: 1700px) {
+		padding: 25vh 8% 0 8%; 
+		width: 40%;
+	}
+	
+}
+
+/* CAROUSEL HEROS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */ 
+
+.hero {
+	height: 50vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	
+	@media (min-width: 900px) {
+		height: 95vh;
+		width: 50%;
+		float: right;
+	}
+	
+	@media (min-width: 1700px) {
+		width: 60%;
+	}
+}
+
+.hero-one {
+	background-image: url(../assets/temp-hero.png);
+}
+
+.hero-two {
+	background-image: url(../assets/bsm-new-harvestsnaps.jpg);
+}
+
+.hero-three {
+	background-image: url(../assets/temp-hero.png);
+}

@@ -57,6 +57,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/assets\/right-arrow-gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15058,
+		"inputAbbreviatedPath": "\/_\/assets\/right-arrow-gray.png",
+		"outputAbbreviatedPath": "\/_\/assets\/right-arrow-gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/assets\/temp-hero.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -135,22 +146,6 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_\/sass\/buttons.scss",
 		"outputAbbreviatedPath": "\/_\/css\/buttons.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
-		},
-	"\/_\/sass\/carousel.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/sass\/carousel.scss",
-		"outputAbbreviatedPath": "\/_\/css\/carousel.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -238,6 +233,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/_\/sass\/modules\/carousel.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/sass\/modules\/carousel.scss",
+		"outputAbbreviatedPath": "\/_\/sass\/css\/carousel.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
 	"\/_\/sass\/modules\/header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -254,22 +265,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/_\/sass\/modules\/hero.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/_\/sass\/modules\/hero.scss",
-		"outputAbbreviatedPath": "\/_\/sass\/css\/hero.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 1
-		},
 	"\/_\/sass\/modules\/nav.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -279,6 +274,22 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_\/sass\/modules\/nav.scss",
 		"outputAbbreviatedPath": "\/_\/sass\/css\/nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"\/_\/sass\/modules\/ourwork.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/sass\/modules\/ourwork.scss",
+		"outputAbbreviatedPath": "\/_\/sass\/css\/ourwork.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -307,6 +318,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/ourwork.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ourwork.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
