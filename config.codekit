@@ -46,6 +46,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_\/assets\/down-arrow-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198,
+		"inputAbbreviatedPath": "\/_\/assets\/down-arrow-red.png",
+		"outputAbbreviatedPath": "\/_\/assets\/down-arrow-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_\/assets\/hamburger-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -64,6 +75,17 @@
 		"initialSize": 15058,
 		"inputAbbreviatedPath": "\/_\/assets\/right-arrow-gray.png",
 		"outputAbbreviatedPath": "\/_\/assets\/right-arrow-gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_\/assets\/search.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 355,
+		"inputAbbreviatedPath": "\/_\/assets\/search.png",
+		"outputAbbreviatedPath": "\/_\/assets\/search.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -229,7 +251,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},

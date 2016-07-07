@@ -248,6 +248,9 @@ ol ul {
   .split-seventy {
     width: 75%; } }
 
+.hide {
+  display: none; }
+
 /* PRIMARY NAVIGATION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav {
@@ -289,6 +292,7 @@ header {
   height: 180px;
   width: 100%;
   background-color: #bf2f38;
+  -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out; }
   @media (min-width: 900px) {
     header {
@@ -412,15 +416,25 @@ header {
 
 .button-arrow:after {
   content: '';
-  background: url(../assets/button-arrow.png) no-repeat;
   display: inline-block;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
+
+.right-arrow:after {
   margin-left: 10px;
   height: 9px;
   width: 5px;
-  transition-timing-function: ease;
-  transition-duration: .25s; }
+  background: url(../assets/button-arrow.png) no-repeat; }
 
-.button-arrow:hover:after {
+.down-arrow:after {
+  margin-left: 8px;
+  height: 6px;
+  width: 9px;
+  background: url(../assets/down-arrow-red.png) no-repeat; }
+
+.right-arrow:hover:after {
   margin-left: 15px; }
 
 /* OUR WORK - PROJECT FILTERS
@@ -429,10 +443,14 @@ header {
   z-index: 2;
   position: fixed;
   top: 0;
-  padding: 15px;
+  padding: 13px 10px 0 10px;
   width: 100%;
   height: 50px;
-  background-color: white; }
+  background-color: white;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
   @media (min-width: 900px) {
     .work-filters {
       padding: 35px;
@@ -447,6 +465,20 @@ header {
   .work-filters li {
     display: inline;
     margin-right: 20px; }
+
+#dropdowns {
+  margin-top: 1px;
+  margin-right: 0px;
+  float: right;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
+  @media (min-width: 900px) {
+    #dropdowns {
+      margin-top: 3px; }
+      #dropdowns div:last-child {
+        margin-right: 0; } }
 
 /* Dropdown Button */
 .dropbtn {
@@ -469,17 +501,18 @@ header {
   display: none;
   position: absolute;
   padding-top: 10px;
-  margin-left: -15px;
+  margin-left: -30px;
   background-color: white;
-  min-width: 160px;
+  min-width: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   color: #58595b;
-  padding: 5px 16px;
+  padding: 12px 16px 12px 16px;
   text-decoration: none;
-  display: block; }
+  display: block;
+  line-height: 1.3em; }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
@@ -491,7 +524,76 @@ header {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41; }
+  background-color: white; }
+
+/* OUR WORK - SEARCH BOX
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.search-box {
+  margin-top: -3px;
+  background: white; }
+
+.container-2 {
+  margin-right: 30px;
+  width: 100%;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative; }
+  @media (min-width: 900px) {
+    .container-2 {
+      width: 200px; } }
+  @media (min-width: 1085px) {
+    .container-2 {
+      width: 100%; } }
+  @media (min-width: 1400px) {
+    .container-2 {
+      width: 200px; } }
+
+.container-2 input#search {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #262626;
+  padding-left: 35px;
+  border-radius: 13px;
+  color: #fff;
+  -webkit-transition: width .55s ease;
+  transition: width .55s ease; }
+
+.container-2 input#search::-webkit-input-placeholder {
+  color: #bf2f38; }
+
+.container-2 input#search:-moz-placeholder {
+  /* Firefox 18- */
+  color: #bf2f38; }
+
+.container-2 input#search::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #bf2f38; }
+
+.container-2 input#search:-ms-input-placeholder {
+  color: #bf2f38; }
+
+.container-2 .icon {
+  position: absolute;
+  top: 3px;
+  margin-left: 10px;
+  z-index: 1;
+  color: #bf2f38; }
+
+.container-2 input#search:focus, .container-2 input#search:active {
+  border: 2px solid #bf2f38;
+  outline: none;
+  width: 100%; }
+
+.container-2:hover input#search {
+  border: 2px solid #bf2f38;
+  width: 100%; }
+
+.container-2:hover .icon {
+  color: #bf2f38; }
 
 /* OUR WORK - HERO
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -505,7 +607,7 @@ header {
     .work-hero {
       float: right;
       margin-top: 0;
-      height: 100vh;
+      height: 94vh;
       width: 55%; } }
   @media (min-width: 1085px) {
     .work-hero {
@@ -517,14 +619,15 @@ header {
 /* OUR WORK - PROJECT LIST
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .project-list {
-  width: 100%;
-  height: 100vh;
-  overflow: scroll; }
+  width: 100%; }
   @media (min-width: 900px) {
     .project-list {
       float: left;
+      padding-bottom: 60px;
       padding-top: 100px;
-      width: 45%; } }
+      width: 45%;
+      height: 100vh;
+      overflow: scroll; } }
   @media (min-width: 1085px) {
     .project-list {
       width: 35%; } }
@@ -539,6 +642,8 @@ header {
   width: 100%;
   height: 75px;
   background-color: #f1f2f2; }
+  .project-item:hover {
+    background-color: #e4e6e6; }
   .project-item h3 {
     margin-right: 20px; }
   .project-item h4 {
@@ -551,7 +656,7 @@ header {
     margin-bottom: 0; }
   .stacked .item-arrow {
     margin-top: 18px; }
-  @media (min-width: 900px) {
+  @media (min-width: 390px) {
     .stacked {
       padding: 25px 35px; }
       .stacked .item-arrow {
@@ -609,5 +714,4 @@ header {
 
 .interactive-text {
   color: #cd9700; }
-
 /*# sourceMappingURL=main.css.map */

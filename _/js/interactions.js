@@ -31,8 +31,42 @@ $(document).ready(function() {
         $('#carousel-button-three').addClass('carousel-selected');
     });
     
+    
+
+  $('.container-2').hover(
+	
+       function () {
+          $('.work-filters').css("height", "80px");
+          $('#search').css("margin-bottom", "5px");
+       }, 
+		
+       function () {
+          $('.work-filters').css("height", "50px");
+          $('#search').css("margin-bottom", "0px");
+       }
+    );
+		
+		
+	$('.container-2').click(
+				
+	   function () {
+	      $('#dropdowns').addClass('hide');
+	   }, 
+		
+	   function () {
+	      $('#dropdowns').removeClass('hide');
+	   }
+	);
+			
+		
 
 
-    
-    
 });
+    
+    
+    
+    
+	
+
+    
+    
