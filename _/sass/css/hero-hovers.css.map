@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "hero-hovers.css",
+	"sources": [
+		"../modules/hero-hovers.scss"
+	],
+	"mappings": ";AAAA;yJACyJ",
+	"names": []
+}

@@ -251,6 +251,9 @@ ol ul {
 .hide {
   display: none; }
 
+.active {
+  display: block; }
+
 /* PRIMARY NAVIGATION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav {
@@ -339,6 +342,9 @@ header {
     .carousel-nav {
       top: 32vh; } }
 
+.support-nav {
+  margin-bottom: 40px; }
+
 /* CAROUSEL BUTTONS: SIZE; INITIAL COLOR
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .carousel-button {
@@ -377,7 +383,7 @@ header {
     .story-content {
       width: 47%;
       margin: 0;
-      padding: 25vh 10% 0 11%;
+      padding: 21vh 10% 0 11%;
       height: 95vh; } }
   @media (min-width: 1700px) {
     .story-content {
@@ -436,6 +442,135 @@ header {
 
 .right-arrow:hover:after {
   margin-left: 15px; }
+
+.prev-button {
+  padding: 0;
+  margin: 0;
+  margin-top: 4px;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
+  .prev-button:before {
+    content: '';
+    display: inline-block;
+    margin-right: 3px;
+    padding: 5px;
+    height: 9px;
+    width: 6px;
+    background: url(../assets/back-arrow-red.png) no-repeat; }
+  .prev-button:hover {
+    margin-left: -5px;
+    margin-right: 5px; }
+
+.next-button {
+  padding: 0;
+  margin: 0;
+  margin-top: 4px;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
+  .next-button:after {
+    content: '';
+    display: inline-block;
+    background: url(../assets/button-arrow.png) no-repeat;
+    margin-left: 11px;
+    padding: 5px;
+    height: 9px;
+    width: 6px; }
+  .next-button:hover {
+    margin-right: -5px;
+    margin-left: 5px; }
+
+/* OUR WORK - HERO
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.work-hero {
+  height: 50vh;
+  width: 100%;
+  background-image: url(../assets/bsm-new-harvestsnaps.jpg);
+  background-position: center center;
+  background-size: cover;
+  z-index: 1; }
+  @media (min-width: 900px) {
+    .work-hero {
+      float: right;
+      margin-top: 0;
+      height: 94vh;
+      width: 55%; } }
+  @media (min-width: 1085px) {
+    .work-hero {
+      width: 65%; } }
+  @media (min-width: 1700px) {
+    .work-hero {
+      width: 75%; } }
+
+/* OUR WORK - PROJECT LIST
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.project-list {
+  width: 100%; }
+  @media (min-width: 900px) {
+    .project-list {
+      float: left;
+      padding-bottom: 60px;
+      padding-top: 100px;
+      width: 45%;
+      height: 100vh;
+      overflow: scroll; } }
+  @media (min-width: 1085px) {
+    .project-list {
+      width: 35%; } }
+  @media (min-width: 1700px) {
+    .project-list {
+      width: 25%; } }
+
+.project-item {
+  position: relative;
+  padding: 25px 35px;
+  margin-bottom: 3px;
+  width: 100%;
+  height: 75px;
+  background-color: #f1f2f2; }
+  .project-item:hover {
+    background-color: #e4e6e6; }
+  .project-item h3 {
+    margin-right: 20px; }
+  .project-item h4 {
+    margin-top: 4px; }
+
+.stacked {
+  /* WHEN H3 & H4 NEED TO STACK ON MOBILE */
+  padding-top: 15px; }
+  .stacked h3 {
+    margin-bottom: 0; }
+  .stacked .item-arrow {
+    margin-top: 18px; }
+  @media (min-width: 390px) {
+    .stacked {
+      padding: 25px 35px; }
+      .stacked .item-arrow {
+        margin-top: 8px; } }
+
+.link-span {
+  /* ALLOWS THE WHOLE DIV TO BE CLICKABLE */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
+.item-arrow {
+  position: absolute;
+  right: 35px;
+  margin-top: 8px; }
+
+.item-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 75px;
+  width: 10px; }
 
 /* OUR WORK - PROJECT FILTERS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -538,9 +673,6 @@ header {
   vertical-align: middle;
   white-space: nowrap;
   position: relative; }
-  @media (min-width: 900px) {
-    .container-2 {
-      width: 200px; } }
   @media (min-width: 1085px) {
     .container-2 {
       width: 100%; } }
@@ -563,18 +695,22 @@ header {
   transition: width .55s ease; }
 
 .container-2 input#search::-webkit-input-placeholder {
-  color: #bf2f38; }
+  color: #bf2f38;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif; }
 
 .container-2 input#search:-moz-placeholder {
   /* Firefox 18- */
-  color: #bf2f38; }
+  color: #bf2f38;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif; }
 
 .container-2 input#search::-moz-placeholder {
   /* Firefox 19+ */
-  color: #bf2f38; }
+  color: #bf2f38;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif; }
 
 .container-2 input#search:-ms-input-placeholder {
-  color: #bf2f38; }
+  color: #bf2f38;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif; }
 
 .container-2 .icon {
   position: absolute;
@@ -586,102 +722,19 @@ header {
 .container-2 input#search:focus, .container-2 input#search:active {
   border: 2px solid #bf2f38;
   outline: none;
-  width: 100%; }
+  width: 100%;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
 
 .container-2:hover input#search {
   border: 2px solid #bf2f38;
-  width: 100%; }
-
-.container-2:hover .icon {
-  color: #bf2f38; }
-
-/* OUR WORK - HERO
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.work-hero {
-  height: 50vh;
   width: 100%;
-  background-image: url(../assets/bsm-new-harvestsnaps.jpg);
-  background-position: center center;
-  z-index: 1; }
-  @media (min-width: 900px) {
-    .work-hero {
-      float: right;
-      margin-top: 0;
-      height: 94vh;
-      width: 55%; } }
-  @media (min-width: 1085px) {
-    .work-hero {
-      width: 65%; } }
-  @media (min-width: 1700px) {
-    .work-hero {
-      width: 75%; } }
-
-/* OUR WORK - PROJECT LIST
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.project-list {
-  width: 100%; }
-  @media (min-width: 900px) {
-    .project-list {
-      float: left;
-      padding-bottom: 60px;
-      padding-top: 100px;
-      width: 45%;
-      height: 100vh;
-      overflow: scroll; } }
-  @media (min-width: 1085px) {
-    .project-list {
-      width: 35%; } }
-  @media (min-width: 1700px) {
-    .project-list {
-      width: 25%; } }
-
-.project-item {
-  position: relative;
-  padding: 25px 35px;
-  margin-bottom: 3px;
-  width: 100%;
-  height: 75px;
-  background-color: #f1f2f2; }
-  .project-item:hover {
-    background-color: #e4e6e6; }
-  .project-item h3 {
-    margin-right: 20px; }
-  .project-item h4 {
-    margin-top: 4px; }
-
-.stacked {
-  /* WHEN H3 & H4 NEED TO STACK ON MOBILE */
-  padding-top: 15px; }
-  .stacked h3 {
-    margin-bottom: 0; }
-  .stacked .item-arrow {
-    margin-top: 18px; }
-  @media (min-width: 390px) {
-    .stacked {
-      padding: 25px 35px; }
-      .stacked .item-arrow {
-        margin-top: 8px; } }
-
-.link-span {
-  /* ALLOWS THE WHOLE DIV TO BE CLICKABLE */
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1; }
-
-.item-arrow {
-  position: absolute;
-  right: 35px;
-  margin-top: 8px; }
-
-.item-nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 75px;
-  width: 10px; }
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s; }
 
 /* OUR WORK - PROJECT TAG COLORS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -714,4 +767,7 @@ header {
 
 .interactive-text {
   color: #cd9700; }
+
+.harvest-hero {
+  background-image: url(../assets/bsm-new-harvestsnaps.jpg); }
 /*# sourceMappingURL=main.css.map */
